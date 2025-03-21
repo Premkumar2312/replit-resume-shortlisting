@@ -2,10 +2,10 @@
     "name": "resume-filter",
     "version": "1.0.0",
     "description": "A Node.js app for filtering resumes based on keywords",
-    "main": "index.js",
+    "main": "server.js",
     "scripts": {
-      "start": "node index.js",
-      "dev": "nodemon index.js"
+      "start": "node server.js",
+      "dev": "nodemon server.js"
     },
     "dependencies": {
       "cors": "^2.8.5",
@@ -23,6 +23,6 @@
     "engines": {
       "node": ">=14.0.0"
     },
-    "author": "Your Name",
+    "author": "prem kumar",
     "license": "MIT"
   }
